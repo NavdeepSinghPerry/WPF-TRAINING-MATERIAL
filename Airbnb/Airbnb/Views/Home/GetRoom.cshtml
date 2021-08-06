@@ -1,0 +1,10 @@
+﻿<div class="card"  style="width: 18rem;">
+    <img  src=@Model.ImgUrl class="card-img-top" alt="No Image found">
+    <div class="card-body">
+        <h5  class="card-title">@Model.Price</h5>
+        <p  class="card-text">@Model.Description</p>
+        <a  asp-controller="Home" asp-action="Details" asp-route-Id="@Model.Id" asp-route-name="subham" class="btn btn-primary" >@Model.Address</a>
+    </div>
+</div>
+
+

@@ -1,0 +1,10 @@
+C:\Users\tyg23202\Desktop\Calculator\MyCalcy\SoundDetector\bin\Debug\SoundDetector.dll
+C:\Users\tyg23202\Desktop\Calculator\MyCalcy\SoundDetector\bin\Debug\SoundDetector.pdb
+C:\Users\tyg23202\Desktop\Calculator\MyCalcy\SoundDetector\bin\Debug\SoundDetector.xml
+C:\Users\tyg23202\Desktop\Calculator\MyCalcy\SoundDetector\obj\Debug\SoundDetector.Resources.resources
+C:\Users\tyg23202\Desktop\Calculator\MyCalcy\SoundDetector\obj\Debug\SoundDetector.vbproj.GenerateResource.cache
+C:\Users\tyg23202\Desktop\Calculator\MyCalcy\SoundDetector\obj\Debug\SoundDetector.vbproj.CoreCompileInputs.cache
+C:\Users\tyg23202\Desktop\Calculator\MyCalcy\SoundDetector\obj\Debug\SoundDetector.dll
+C:\Users\tyg23202\Desktop\Calculator\MyCalcy\SoundDetector\obj\Debug\SoundDetector.xml
+C:\Users\tyg23202\Desktop\Calculator\MyCalcy\SoundDetector\obj\Debug\SoundDetector.pdb
+C:\Users\tyg23202\Desktop\Calculator\MyCalcy\SoundDetector\obj\Debug\SoundDetector.vbproj.AssemblyReference.cache

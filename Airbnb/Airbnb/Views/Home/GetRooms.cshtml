@@ -1,0 +1,48 @@
+﻿@model  IEnumerable<RoomModel>
+
+
+
+<div class="container">
+    <div class="row">
+        @foreach (var mdl in Model)
+        {
+            <div  class="col">
+                <div class="card" style="width: 18rem;">
+                    <img asp-append-version="true" src=@mdl.ImgUrl class="card-img-top" alt="No Image found">
+                    <div class="card-body">
+                        <h5 class="card-title">Rooms Navdeep</h5>
+                        <p class="card-text">@mdl.Description</p>
+                        <a asp-controller="Home" asp-action="Brief" asp-route-price="@mdl.Price" asp-route-description="@mdl.Description "  class="btn btn-primary">@mdl.Price</a>
+                    </div>
+                </div>
+            </div>
+
+          }
+     </div>
+</div>
+<hr/>
+<div class="container" id="relatedItems"> 
+    <h1>Related Rooms</h1>
+    <div class="row">
+        @{ 
+            int i = 0;
+        }
+        @foreach (var mdl in Model)
+        {
+            i++;
+            if (i <= 5)
+            {
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img asp-append-version="true" src=@mdl.ImgUrl class="card-img-top" alt="No Image found">
+                    <div class="card-body">
+                        <h5 class="card-title">Rooms Navdeep</h5>
+                        <p class="card-text">@mdl.Description</p>
+                        <a asp-controller="Home" asp-action="Brief" asp-route-price="@mdl.Price" asp-route-description="@mdl.Description " class="btn btn-primary">@mdl.Price</a>
+                    </div>
+                </div>
+            </div>
+            }
+        }
+    </div>
+</div>
